@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Mening Gulistonim</title>
+  <style>
+    /* Umumiy sozlamalar */
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #f0f9ff, #cfefff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background: #009688;
+      color: white;
+      padding: 30px 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    header strong {
+      font-size: 1.1rem;
+      display: block;
+      margin-top: 10px;
+    }
+
+    section {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #009688;
+      border-bottom: 2px solid #009688;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    img {
+      display: block;
+      margin: 15px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    .media {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .media > div {
+      flex: 1 1 400px;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      background: #009688;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+
+    /* Tugmalar */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background: #009688;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00796b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mening Gulistonim</h1>
+    <strong>Assalomu alaykum! Bu sahifa Guliston haqida ma'lumotni o'z ichiga oladi.</strong>
+  </header>
+
+  <section>
+    <h2>Qisqacha ma'lumot</h2>
+    <p>
+      Guliston — O'zbekiston Respublikasi Sirdaryo viloyatining markaziy shahri. Shaharda madaniyat maskanlari,
+      bog'lar va mahalliy bozorlar mavjud.
+    </p>
+    <a href="https://uz.wikipedia.org/wiki/Guliston" class="btn" target="_blank">Batafsil o‘qish</a>
+  </section>
+
+  <section>
+    <h2>Rasm</h2>
+    <img src="./img/Guliston.jpg" 
+         alt="Guliston manzarasi">
+  </section>
+
+  <section class="media">
+    <div>
+      <h2>Video</h2>
+      <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/RWQZ69kgt4M"
+              allowfullscreen></iframe>
+    </div>
+    <div>
+      <h2>Xarita</h2>
+      <iframe src="https://www.google.com/maps?q=Guliston%2C+Sirdaryo&output=embed" height="315"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Mening Gulistonim. Barcha huquqlar himoyalangan.
+  </footer>
+
+</body>
+</html>
